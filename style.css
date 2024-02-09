@@ -166,7 +166,7 @@ nav ul li a:hover::after {
   height: 800px;
   padding-top: 40px;
   display: block;
-  background-image: url("../img/4.png");
+  /*background-image: url("../img/4.png");*/
   background-size: cover;
   background-color: #000000;
   background-position: right top;
@@ -808,13 +808,6 @@ form .btn2 {
   }
 }
 
-@media (max-width: 1585px) {
-  .hero-section .laptop-image {
-    left: 0;
-  }
-}
-
-
 
 nav .fas {
   display: none;
@@ -826,6 +819,29 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
 
+  .hero-section .laptop-image {
+    
+    width: 200px;
+    max-width: none;
+    position: relative;
+    left: 300px;
+    top: -350px;
+    
+  }
+  .hero-text {
+    padding-top: 100px;
+  }
+  
+  .hero-text h2 {
+    font-size: 25px;
+    margin-bottom: 35px;
+    color: #fdfdfdea;
+  }
+
+  #text1,#text2{
+    font-size: 25px;
+    top: -100;
+  }
 
   nav .fas {
     display: block;
@@ -858,11 +874,14 @@ nav .fas {
   .sub-title{
     font-size: 40px;
   }
-  .abput-col-1, .about-col-2{
+  .about-col-1, .about-col-2{
     flex-basis: 100%;
+    
+
   }
   .about-col-1{
     margin-bottom: 30px;
+   
   }
   .about-col-2{
     font-size: 14px;
@@ -872,15 +891,17 @@ nav .fas {
     margin-right: 20px;
   }
 
-
-  .hero-text h2 {
-    font-size: 40px;
+  .contact-left, .contact-right{
+    flex-basis: 100%;
   }
-
-  .hero-section {
-    height: auto;
-    padding-bottom: 100px;
-    padding-top: 160px;
-    background-position: right 50% top;
+  .copyright{
+    font-size: 14px;
   }
+ 
+  
+}
+#msg{
+  color: #61b752;
+  margin-top: -40 ;
+  display: block;
 }
