@@ -665,6 +665,8 @@ nav ul li a:hover::after {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  background-color: white;
+
 }
 
 .work img {
@@ -821,38 +823,41 @@ nav .fas {
 
   .hero-section .laptop-image {
     
-    width: 200px;
+    width: 400px;
     max-width: none;
     position: relative;
-    left: 300px;
-    top: -350px;
+    left: 35px;
+    top: 150px;
+
     
   }
   .hero-text {
-    padding-top: 100px;
+    padding-top: 190px;
   }
   
   .hero-text h2 {
-    font-size: 25px;
+    font-size: 45px;
     margin-bottom: 35px;
     color: #fdfdfdea;
   }
 
   #text1,#text2{
-    font-size: 25px;
-    top: -100;
+    font-size: 45px;
+    top: 190;
   }
 
   nav .fas {
     display: block;
-    font-size: 25px;
-    color:#bababa
+    font-size: 45px;
+    color:#bababa;
+    margin-left: 150px;
+    
   }
   nav ul{
     background: #6e64a8;
     position: fixed;
     top:0;
-    right: -200px;
+    right: -300px;
     width: 200px;
     height: 100vh;
     padding-top: 50px;
@@ -861,9 +866,14 @@ nav .fas {
   }
   nav ul li{
     display: block;
-    margin: 25px;
+    margin: 55px;
 
   }
+  nav ul li a{
+   font-size: 25px;
+
+  }
+  
   nav ul .fas{
     position: absolute;
     top: 25px;
@@ -877,14 +887,17 @@ nav .fas {
   .about-col-1, .about-col-2{
     flex-basis: 100%;
     
+    
 
   }
   .about-col-1{
     margin-bottom: 30px;
+    margin-top: -500px;
+
    
   }
   .about-col-2{
-    font-size: 14px;
+    font-size: 24px;
   }
   .tab-link{
     font-size: 16px;
@@ -897,7 +910,23 @@ nav .fas {
   .copyright{
     font-size: 14px;
   }
+
+  .social ul li a i {
+    font-size: 26px;
+    top: 100px;
+  }
+  
  
+  .logoo {
+    width: 240px;
+  }
+  
+  .services-list div {
+
+    
+    font-size: 18px;
+    
+  }
   
 }
 #msg{
