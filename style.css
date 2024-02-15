@@ -817,7 +817,7 @@ nav .fas {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
 
   .hero-section .laptop-image {
     
@@ -905,3 +905,4 @@ nav .fas {
   margin-top: -40 ;
   display: block;
 }
+
