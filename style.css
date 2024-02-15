@@ -928,7 +928,24 @@ nav .fas {
   .services-list div {
 
     
-    font-size: 18px;
+    font-size: 25px;
+    
+  }
+  .services-list div i {
+    font-size: 70px;
+    
+  }
+  
+  .services-list div h2 {
+    font-size: 40px;
+    font-weight: 500;
+    
+  
+  }
+  
+  .services-list div a {
+    
+    font-size: 22px;
     
   }
   
